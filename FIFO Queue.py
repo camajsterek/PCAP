@@ -23,7 +23,6 @@ class Queue:
 class SuperQueue(Queue):
     def __init__(self):
         Queue.__init__(self)
-        self.que = []
 
     def isempty(self):
         if len(self.que) > 0:
